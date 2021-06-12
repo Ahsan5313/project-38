@@ -1,0 +1,132 @@
+
+body{
+
+    margin-top: 90px;
+    
+}
+.navbar{
+
+    box-shadow: 2px 2px 5px #3292a6;
+    background: #fff;
+    opacity: .8;
+}
+.navbar .nav-item{
+
+    font-size: 1.5rem;
+    padding-right: 20px;
+}
+.nav-item:last-child{
+
+    padding-right: 0;
+}
+.navbar .nav-item .nav-link{
+
+    color: #252525;
+}
+.navbar .nav-item .nav-link:hover{
+
+    color: #3292a6;
+}
+#showCase{
+
+    background-image: url('pexels-s-migaj-747964.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    position: relative;
+}
+#showCase .primary-overlay{
+
+    background: rgba(56, 146,156, .7);
+    min-height: 700px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+#subscribe{
+
+    background: #252525;
+}
+#subscribe button{
+
+    background: #3292a6;
+    color: #fff;
+}
+#boxes h3{
+
+    color: #3292a6;
+}
+#boxes .card-style{
+
+    background: #3292a6;
+    color: #fff;
+}
+#about h2{
+
+    color: #3292a6;
+}
+#authors img{
+
+    margin-top: -60px;
+}
+#authors .card:hover{
+
+    background: #3292a6;
+    color:#fff;
+}
+#authors h2{
+    color: #3292a6;
+}
+#authors .fab{
+
+    font-size: 20px;
+    padding: 30px;
+    
+}
+#authors i{
+
+    color: #3292a6;
+}
+#authors .card:hover i{
+
+    background: #3292a6;
+    color:#fff;
+}
+#contact .btn{
+
+    background: #3292a6;
+    color: #fff;
+}
+#footer {
+
+    background: #3292a6;
+    color: #fff;
+}
+#footer a{
+
+    text-decoration: none;
+}
+
+@media (max-width:991px){
+
+    .navbar ul li{
+
+        text-align: center;
+    }
+}
+@media (max-width: 576px){
+
+    #showCase h1{
+
+        font-size: 35px;
+    }
+}
+@media (max-width: 768px){
+
+    #showCase h1{
+
+        font-size: 60px;
+    }
+}
